@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Personal portfolio of a BCA student and aspiring web developer.">
+  <title>Tushar Vasan | Personal Portfolio</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Space+Grotesk:wght@500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header class="site-header">
+    <nav class="navbar container" aria-label="Main navigation">
+      <a class="logo" href="#home">TV<span>.</span></a>
+      <input type="checkbox" id="menu-toggle" class="menu-toggle">
+      <label for="menu-toggle" class="menu-icon" aria-label="Toggle navigation"><span></span><span></span><span></span></label>
+      <ul class="nav-links">
+        <li><a href="#home">Home</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#education">Education</a></li>
+        <li><a class="nav-contact" href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero section" id="home">
+      <div class="container hero-grid">
+        <div class="hero-copy">
+          <p class="eyebrow"><span class="status-dot"></span> AVAILABLE FOR LEARNING & COLLABORATION</p>
+          <h1>Hi, I'm <span>Tushar Vasan.</span><br>Building things for the web.</h1>
+          <p class="hero-description">I'm a BCA student and aspiring web developer who enjoys turning ideas into clean, useful digital experiences.</p>
+          <div class="hero-actions">
+            <a class="button button-primary" href="#projects">Explore my work <span>↗</span></a>
+            <a class="button button-secondary" href="#contact">Let's connect</a>
+          </div>
+          <div class="hero-meta"><span>Based in India</span><span class="meta-line"></span><span>Student · Developer</span></div>
+        </div>
+        <div class="hero-visual" aria-label="Decorative developer profile card">
+          <div class="orbit orbit-one"></div><div class="orbit orbit-two"></div>
+          <div class="profile-card">
+            <div class="card-top"><span class="window-dots">● ● ●</span><span>PROFILE.EXE</span></div>
+            <div class="avatar">TV</div>
+            <h2>Tushar Vasan</h2>
+            <p class="profile-role">Aspiring Web Developer</p>
+            <div class="profile-tags"><span>HTML</span><span>CSS</span><span>JavaScript</span></div>
+            <div class="card-footer"><span>Currently learning</span><strong>↗</strong></div>
+          </div>
+          <span class="floating-chip chip-code">&lt;/&gt; Code</span>
+          <span class="floating-chip chip-idea">✦ Keep creating</span>
+        </div>
+      </div>
+    </section>
+
+    <section class="section section-muted" id="about">
+      <div class="container">
+        <div class="section-heading"><p class="eyebrow">01 / ABOUT</p><h2>A little about <span>me.</span></h2></div>
+        <div class="about-grid">
+          <div class="about-mark">“</div>
+          <div class="about-content">
+            <p class="about-lead">Curious mind. Practical learner. Future-focused developer.</p>
+            <p>I'm currently pursuing a Bachelor of Computer Applications (BCA). I'm interested in web development, problem-solving, and exploring how technology can make everyday tasks easier.</p>
+            <p>I enjoy learning by building small projects, experimenting with new tools, and improving my work one step at a time. My current focus is strengthening my HTML and CSS fundamentals.</p>
+            <div class="quick-facts"><div><strong>01</strong><span>Always learning</span></div><div><strong>02</strong><span>Project focused</span></div><div><strong>03</strong><span>Open to ideas</span></div></div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="skills">
+      <div class="container">
+        <div class="section-heading"><p class="eyebrow">02 / SKILLS</p><h2>Tools I work <span>with.</span></h2><p class="section-intro">A growing toolkit. I'm focused on building strong foundations before moving to more advanced technologies.</p></div>
+        <div class="skills-grid">
+          <article class="skill-card"><div class="skill-icon">⌘</div><h3>Frontend</h3><p>Creating structured and responsive web pages.</p><div class="skill-pills"><span>HTML5</span><span>CSS3</span><span>Flexbox</span><span>CSS Grid</span></div></article>
+          <article class="skill-card"><div class="skill-icon">⌁</div><h3>Programming</h3><p>Learning programming logic and problem-solving.</p><div class="skill-pills"><span>Java</span><span>JavaScript basics</span></div></article>
+          <article class="skill-card"><div class="skill-icon">▧</div><h3>Tools & Design</h3><p>Working with tools that support development and presentation.</p><div class="skill-pills"><span>VS Code</span><span>Git basics</span><span>Canva</span></div></article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section section-muted" id="projects">
+      <div class="container">
+        <div class="section-heading"><p class="eyebrow">03 / SELECTED WORK</p><h2>Things I've <span>built.</span></h2><p class="section-intro">A few practice projects that demonstrate my learning and problem-solving approach.</p></div>
+        <div class="projects-grid">
+          <article class="project-card"><div class="project-art art-one"><span class="art-symbol">₹</span><span class="art-caption">TRACK YOUR MONEY</span></div><div class="project-info"><div class="project-type">01 / WEB APPLICATION</div><h3>Expense Tracker</h3><p>A simple interface to record income and expenses, view transactions, and calculate the remaining balance.</p><div class="project-tags"><span>HTML</span><span>CSS</span><span>JavaScript</span></div><a href="#contact" class="text-link">Discuss project <span>↗</span></a></div></article>
+          <article class="project-card"><div class="project-art art-two"><span class="art-symbol">✓</span><span class="art-caption">MAKE IT HAPPEN</span></div><div class="project-info"><div class="project-type">02 / PRODUCTIVITY</div><h3>To-Do List</h3><p>A task manager concept for adding tasks, tracking progress, and keeping daily work organised.</p><div class="project-tags"><span>HTML</span><span>CSS</span><span>JavaScript</span></div><a href="#contact" class="text-link">Discuss project <span>↗</span></a></div></article>
+          <article class="project-card"><div class="project-art art-three"><span class="art-symbol">#</span><span class="art-caption">VERIFY WITH CONFIDENCE</span></div><div class="project-info"><div class="project-type">03 / CYBERSECURITY CONCEPT</div><h3>ProofChain</h3><p>A file-integrity concept that uses SHA-256 hashes to help identify whether a file has been changed.</p><div class="project-tags"><span>Cybersecurity</span><span>SHA-256</span><span>Research</span></div><a href="#contact" class="text-link">Discuss project <span>↗</span></a></div></article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="education">
+      <div class="container">
+        <div class="section-heading"><p class="eyebrow">04 / EDUCATION</p><h2>My learning <span>journey.</span></h2></div>
+        <div class="timeline">
+          <article class="timeline-item"><div class="timeline-dot"></div><div class="timeline-date">2026 — PRESENT</div><div class="timeline-content"><h3>Bachelor of Computer Applications (BCA)</h3><p class="timeline-place">CGC Mohali University</p><p>Building a foundation in computer applications, programming, databases, operating systems, and web technologies.</p><span class="timeline-status">Currently pursuing</span></div></article>
+          <article class="timeline-item"><div class="timeline-dot"></div><div class="timeline-date">PREVIOUS</div><div class="timeline-content"><h3>Higher Secondary Education</h3><p class="timeline-place">Add your school name</p><p>Add your stream, board, passing year, and any relevant academic achievements here.</p></div></article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section contact-section" id="contact">
+      <div class="container contact-grid">
+        <div><p class="eyebrow">05 / CONTACT</p><h2>Have an idea?<br>Let's <span>talk.</span></h2><p class="contact-copy">I'm open to learning opportunities, collaborations, and conversations about technology and development.</p></div>
+        <div class="contact-panel">
+          <p class="contact-label">GET IN TOUCH</p>
+          <a class="contact-method" href="mailto:tusharvasan@gmail.com"><span>Email</span><strong>tusharvasan@gmail.com ↗</strong></a>
+          <a class="contact-method" href="https://www.linkedin.com/in/tushar-vasan-212a233ab/" target="_blank" rel="noopener noreferrer"><span>LinkedIn</span><strong>Connect with me ↗</strong></a>
+          <a class="contact-method" href="https://github.com/vasan2603" target="_blank" rel="noopener noreferrer"><span>GitHub</span><strong>View my code ↗</strong></a>
+          <p class="contact-note">Replace these sample links with your real contact details.</p>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer"><div class="container footer-inner"><a class="logo" href="#home">TV<span>.</span></a><p>Designed & built with HTML and CSS.</p><p>© 2026 Tushar Vasan</p></div></footer>
+</body>
+</html>
